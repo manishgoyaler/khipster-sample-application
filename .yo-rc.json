@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "khipster",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTAxYTM2YWIwODg2ZDIzMTY4MDM4ZTU4MmM4NWUzYzBkNmJmY2Y1NDRlMmE2NWEzMGMwMjc5NzZmMTFjN2RlZTYwODMwZTc5YTI3NDVlN2I3OGM4NzY3ZDQ5ZWY4NDBiYWRmM2NkNjJkMThmNGI2MjQ4NmY2NmVmOGY1YWNiNDE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "flatly",
+    "clientThemeVariant": "light",
+    "creationTimestamp": 1585538561029,
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.6.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.6.0"
+      }
+    ],
+    "reactive": true
+  }
+}
